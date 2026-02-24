@@ -5,7 +5,7 @@ class PantallaDos extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String miLogo = 'https://raw.githubusercontent.com/mariarene0602/Imagenes-pantalla/refs/heads/main/Copia%20de%20logo.png';
+    const String miLogo = 'https://raw.githubusercontent.com/mariarene0602/Imagenes-pantalla/main/Copia%20de%20logo.png';
 
     return Scaffold(
       backgroundColor: Colors.white,

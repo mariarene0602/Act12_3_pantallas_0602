@@ -5,7 +5,7 @@ class PantallaTres extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String miLogo = 'https://raw.githubusercontent.com/mariarene0602/Imagenes-pantalla/refs/heads/main/Copia%20de%20logo.png';
+    const String miLogo = 'https://raw.githubusercontent.com/mariarene0602/Imagenes-pantalla/main/Copia%20de%20logo.png';
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -17,6 +17,19 @@ class PantallaTres extends StatelessWidget {
                 const SizedBox(height: 60),
                 Image.network(miLogo, height: 180),
                 const SizedBox(height: 40),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 30),
+                  child: Text(
+                    "Únete a nuestra comunidad",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF1A237E),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 30),
                 _buildDots(2),
                 const SizedBox(height: 40),
                 Padding(
